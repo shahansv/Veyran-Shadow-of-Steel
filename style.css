@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+    font-weight: 900;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+        2px 2px 0 black, -2px 0 0 black, 2px 0 0 black, 0 -2px 0 black,
+        0 2px 0 black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+nav button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border: none;
+}
+
+nav button:hover {
+    color: black;
+    background-color: #fff;
+    border: 3px solid black;
+    padding: 2px 7px 2px 7px;
+}
+
+#character {
+    height: 100vh;
+    position: relative;
+}
+
+#cimage {
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#cimage img {
+    width: 90%;
+}
+
+#cmarquee {
+    height: 80vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cmarquee marquee {
+    font-size: 120px;
+    font-weight: 700;
+}
+
+.marqbgt {
+    color: white;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+        2px 2px 0 black, -2px 0 0 black, 2px 0 0 black, 0 -2px 0 black,
+        0 2px 0 black;
+    font-weight: 900;
+}
+
+#about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-img {
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#about-content {
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-content h1 {
+    display: block;
+    font-size: 65px;
+}
+
+#about-content p {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}
+
+#skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#progress-bar {
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+}
+
+#progress-bar h1 {
+    text-align: center;
+    font-size: 65px;
+    margin: 100px 0px 40px 10px;
+}
+
+#skills-img {
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#skills-img img {
+    width: 75%;
+    object-fit: cover;
+}
+
+.progress-item {
+    display: flex;
+    margin-left: 10px;
+    justify-content: end;
+}
+
+.progress-item p {
+    font-weight: 700;
+}
+
+.outter-progress {
+    height: 13px;
+    border: 2px solid black;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    width: 500px;
+    margin: 10px;
+}
+
+.inner-progress {
+    height: 13px;
+    background-color: black;
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.pistol {
+    width: 390px;
+}
+
+.smg {
+    width: 460px;
+}
+
+.shortgun {
+    width: 425px;
+}
+
+.sniper {
+    width: 350px;
+}
+
+.machine {
+    width: 325px;
+}
+
+.exotic {
+    width: 400px;
+}
+
+
+#inventory{
+    padding-top: 5vh;
+}
+
+
+#inventory h1{
+    font-size: 65px;
+    font-weight: 800;
+    margin-left: 20px;
+
+}
+
+.weapon{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: 10px;
+}
+
+.weapon span{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.weapon img{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: black;
+    color: #929191;
+    text-align: center;
+    padding: 30px;
+}
+
+#contact {
+    margin-bottom: 15px;
+}
+
+#contact a {
+    color: #929191;
+    margin: 0px 8px;
+    font-size: 24px;
+}
+
+#contact a:hover {
+    color: white;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
