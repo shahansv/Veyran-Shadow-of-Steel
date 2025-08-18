@@ -227,21 +227,18 @@ nav button:hover {
     width: 400px;
 }
 
-
-#inventory{
+#inventory {
     padding-top: 5vh;
     height: 100vh;
 }
 
-
-#inventory h1{
+#inventory h1 {
     font-size: 60px;
     font-weight: 800;
     margin-left: 20px;
-
 }
 
-.weapon{
+.weapon {
     height: 150px;
     display: flex;
     align-items: center;
@@ -251,37 +248,32 @@ nav button:hover {
     border-radius: 10px;
 }
 
-.weapon:hover{
+.weapon:hover {
     border: 2px solid black;
     box-shadow: 0px 0px 10px black;
 }
 
-.weapon span{
+.weapon span {
     font-weight: 800;
     font-size: 20px;
     margin-left: 50px;
 }
-.weapon img{
+
+.weapon img {
     height: 90%;
     margin-left: 10px;
 }
 
-
-#inventory-grid{
+#inventory-grid {
     display: grid;
-    grid-template-columns: auto auto  auto;
+    grid-template-columns: auto auto auto;
     gap: 10px;
     padding: 10px;
 }
 
-
-.weapon img{
+.weapon img {
     border-radius: 10px;
 }
-
-
-
-
 
 footer {
     background: black;
@@ -309,4 +301,3 @@ footer p {
     font-size: 17px;
     font-weight: 700;
 }
-
